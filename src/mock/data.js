@@ -82,6 +82,24 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'social-media.jpg',
+    title: 'Social Media Landing Page',
+    info: 'This is a concept for a single page application which deomonstrates a transition with night mode and day mode. This demonstrates my ability to use Javascript and CSS Grid to make a responsive night mode app.',
+    info2: '',
+    url: 'https://thirsty-fermi-e63aa7.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/social-media-dashboard', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'huddle.jpg',
+    title: 'Huddle Landing Page',
+    info: 'This is landing page which demonstrates how I can construct a Layout with HTML/CSS Bootstrap.',
+    info2: '',
+    url: 'https://confident-saha-6ff079.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/huddle-landing-page', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'sign-up-form.jpg',
     title: 'Sign Up Form',
     info: 'Sign up form using simple HTML/CSS and Javascript. This project uses Regex for the email and password checks.',
