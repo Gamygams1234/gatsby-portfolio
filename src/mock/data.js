@@ -26,7 +26,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  
   {
+    id: nanoid(),
+    img: 'project2.jpg',
+    title: 'Stonks',
+    info: 'A React JS single page responsive app using an API from alphavantage.co to find information of the stock. Users can search a stock by typing in the abbreviation, then they can see the statistics for the day as well as seeing the history of the stock with a candlestick chart.',
+    info2: '',
+    url: 'https://musing-neumann-c801c5.netlify.app',
+    repo: 'https://github.com/Gamygams1234/stonks-app', // if no repo, the button will not show up
+  },{
     id: nanoid(),
     img: 'project1.jpg',
     title: `Gamy's Shop`,
@@ -37,18 +46,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
-    title: 'Stonks',
-    info: 'A React JS single page responsive app using an API from alphavantage.co to find information of the stock. Users can search a stock by typing in the abbreviation, then they can see the statistics for the day as well as seeing the history of the stock with a candlestick chart.',
+    img: 'insure.jpg',
+    title: `Insure Landing Page`,
+    info: 'This is a landing page made with HTML CSS and Javascript. I was able to implement the :before and :after selectors in order to make sure that the images were layered and it fit the design.',
     info2: '',
-    url: 'https://musing-neumann-c801c5.netlify.app',
-    repo: 'https://github.com/Gamygams1234/stonks-app', // if no repo, the button will not show up
+    url: 'https://dreamy-yonath-35484e.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/insure-landing-page', // if no repo, the button will not show up
   },
+  
   {
     id: nanoid(),
     img: 'clipboard-landing-page.jpg',
     title: 'Clipboard Landing Page',
-    info: 'This is a landing page which was made with HTML/SCSS, Bootstrap and Javascript.',
+    info: 'This is a landing page which was made with HTML/SCSS, Bootstrap and Javascript. This demonstrates how I am able to position items to make the User Interface presentable and responsive.',
     info2: '',
     url: 'https://sad-ptolemy-4d9e71.netlify.app',
     repo: 'https://github.com/Gamygams1234/clipboard-landing-page', // if no repo, the button will not show up
