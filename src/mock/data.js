@@ -108,15 +108,7 @@ export const projectsData = [
     url: 'https://condescending-meitner-8164cf.netlify.app/',
     repo: 'https://github.com/Gamygams1234/dev-camp-fries', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'weather.jpg',
-  //   title: 'Weather App By Gamy',
-  //   info: 'This is a Weather App using Bootstrap, HTML/ CSS and Javascript in order to get information from the API and broadcasting the weather for the user.',
-  //   info2: '',
-  //   url: 'https://infallible-sinoussi-533c9f.netlify.app/',
-  //   repo: 'https://github.com/Gamygams1234/weather-app', // if no repo, the button will not show up
-  // },
+
   {
     id: nanoid(),
     img: 'social-media.jpg',
