@@ -53,6 +53,33 @@ export const projectsData = [
     url: 'https://dreamy-yonath-35484e.netlify.app/',
     repo: 'https://github.com/Gamygams1234/insure-landing-page', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'slider.jpg',
+    title: `Bootcamp Testimonials Slider`,
+    info: 'This is a slider made with HTML CSS and Javascript. I was able to implement Object Oriented Javascript so if more pictures are added, the slider can adapt accordingly.',
+    info2: '',
+    url: 'https://keen-thompson-52857b.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/coding-bootcamp-testimonials-slider', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'loopstudios.jpg',
+    title: `LoopStudios Landing Page`,
+    info: 'This is a landing page made with HTML CSS and Javascript. I was able CSS Grid for the footer and image gallery.',
+    info2: '',
+    url: 'https://adoring-lovelace-465c9e.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/loopstudios', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'interactive-pricing.jpg',
+    title: `Interactive Pricing Component`,
+    info: 'This is a slider made with HTML CSS and Javascript. I was able to implement Object Oriented Javascript for the slider to act efficiently depending on how many pricing options there are.',
+    info2: '',
+    url: 'https://elated-wing-5f795f.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/interactive-pricing-component', // if no repo, the button will not show up
+  },
   
   {
     id: nanoid(),
@@ -81,15 +108,15 @@ export const projectsData = [
     url: 'https://condescending-meitner-8164cf.netlify.app/',
     repo: 'https://github.com/Gamygams1234/dev-camp-fries', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'weather.jpg',
-    title: 'Weather App By Gamy',
-    info: 'This is a Weather App using Bootstrap, HTML/ CSS and Javascript in order to get information from the API and broadcasting the weather for the user.',
-    info2: '',
-    url: 'https://infallible-sinoussi-533c9f.netlify.app/',
-    repo: 'https://github.com/Gamygams1234/weather-app', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'weather.jpg',
+  //   title: 'Weather App By Gamy',
+  //   info: 'This is a Weather App using Bootstrap, HTML/ CSS and Javascript in order to get information from the API and broadcasting the weather for the user.',
+  //   info2: '',
+  //   url: 'https://infallible-sinoussi-533c9f.netlify.app/',
+  //   repo: 'https://github.com/Gamygams1234/weather-app', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'social-media.jpg',
