@@ -54,6 +54,24 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'ip-tracker.jpg',
+    title: `IP Adress Tracker`,
+    info: 'This is an IP address tracker where a person can input an IP or a website and they can see the location, timezone, and timezone of the IP.',
+    info2: '',
+    url: 'https://elated-hamilton-5af558.netlify.app',
+    repo: 'https://github.com/Gamygams1234/ip-address-tracker', // if no repo, the button will not sho
+  },
+  {
+    id: nanoid(),
+    img: 'clock.jpg',
+    title: `Clock App`,
+    info: `This is an app which show the time in the user's timezone, as well as the day of the year, day of the week, week number, and an inspirational random quote.`,
+    info2: '',
+    url: 'https://youthful-jennings-ef3eee.netlify.app/',
+    repo: 'https://github.com/Gamygams1234/clock-app', // if no repo, the button will not sho
+  },
+  {
+    id: nanoid(),
     img: 'insure.jpg',
     title: `Insure Landing Page`,
     info: 'This is a landing page made with HTML CSS and Javascript. I was able to implement the :before and :after selectors in order to make sure that the images were layered and it fit the design.',
