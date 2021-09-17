@@ -28,6 +28,15 @@ export const projectsData = [
   
   {
     id: nanoid(),
+    img: 'ip-tracker.jpg',
+    title: `IP Adress Tracker`,
+    info: 'This is an IP address tracker where a person can input an IP or a website and they can see the location, timezone, and timezone of the IP.',
+    info2: '',
+    url: 'https://elated-hamilton-5af558.netlify.app',
+    repo: 'https://github.com/Gamygams1234/ip-address-tracker', // if no repo, the button will not sho
+  },
+  {
+    id: nanoid(),
     img: 'project2.jpg',
     title: 'Stonks',
     info: 'A React JS single page responsive app using an API from alphavantage.co to find information of the stock. Users can search a stock by typing in the abbreviation, then they can see the statistics for the day as well as seeing the history of the stock with a candlestick chart.',
@@ -45,22 +54,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'coffeeRoasters.jpg',
-    title: `Coffee Roasters`,
-    info: 'This is a 3 page landing subscription site which showcases my JavaScript, HTML, CSS, and logic skills.',
+    img: 'splitter.jpg',
+    title: `Tip Calculator`,
+    info: 'This is a tip caluculator where people can input the total price, the amount of people to split between, and the percentage that the party wants to tip, in order to split the bill evenly.',
     info2: '',
-    url: 'https://hopeful-nobel-26ed64.netlify.app',
-    repo: 'https://github.com/Gamygams1234/coffee-roasters-subscription', // if no repo, the button will not sho
+    url: 'https://brave-yalow-103a61.netlify.app',
+    repo: 'https://github.com/Gamygams1234/tip-caluculator-app-splitter', // if no repo, the button will not sho
   },
-  {
-    id: nanoid(),
-    img: 'ip-tracker.jpg',
-    title: `IP Adress Tracker`,
-    info: 'This is an IP address tracker where a person can input an IP or a website and they can see the location, timezone, and timezone of the IP.',
-    info2: '',
-    url: 'https://elated-hamilton-5af558.netlify.app',
-    repo: 'https://github.com/Gamygams1234/ip-address-tracker', // if no repo, the button will not sho
-  },
+  
   {
     id: nanoid(),
     img: 'clock.jpg',
@@ -69,6 +70,15 @@ export const projectsData = [
     info2: '',
     url: 'https://youthful-jennings-ef3eee.netlify.app/',
     repo: 'https://github.com/Gamygams1234/clock-app', // if no repo, the button will not sho
+  },
+  {
+    id: nanoid(),
+    img: 'coffeeRoasters.jpg',
+    title: `Coffee Roasters`,
+    info: 'This is a 3 page landing subscription site which showcases my JavaScript, HTML, CSS, and logic skills.',
+    info2: '',
+    url: 'https://hopeful-nobel-26ed64.netlify.app',
+    repo: 'https://github.com/Gamygams1234/coffee-roasters-subscription', // if no repo, the button will not sho
   },
   {
     id: nanoid(),
