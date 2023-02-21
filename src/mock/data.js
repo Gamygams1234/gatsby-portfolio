@@ -43,7 +43,8 @@ export const projectsData = [
     info2: '',
     url: 'https://musing-neumann-c801c5.netlify.app',
     repo: 'https://github.com/Gamygams1234/stonks-app', // if no repo, the button will not show up
-  },{
+  },
+  {
     id: nanoid(),
     img: 'project1.jpg',
     title: `Gamy's Shop`,
@@ -54,23 +55,23 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'todos.jpg',
+    title: `Todo List`,
+    info: 'This is a Todo List which showcases night mode, state management, and responsive design. This was all done using the React Framework',
+    info2: '',
+    url: 'https://pure-fjord-03615.herokuapp.com/',
+    repo: 'https://github.com/Gamygams1234/gb-todo-app-react', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'splitter.jpg',
     title: `Tip Calculator`,
     info: 'This is a tip caluculator where people can input the total price, the amount of people to split between, and the percentage that the party wants to tip, in order to split the bill evenly.',
     info2: '',
-    url: 'https://brave-yalow-103a61.netlify.app',
+    url: 'https://gb-todos.netlify.app',
     repo: 'https://github.com/Gamygams1234/tip-caluculator-app-splitter', // if no repo, the button will not sho
   },
-  
-  {
-    id: nanoid(),
-    img: 'clock.jpg',
-    title: `Clock App`,
-    info: `This is an app which show the time in the user's timezone, as well as the day of the year, day of the week, week number, and an inspirational random quote.`,
-    info2: '',
-    url: 'https://youthful-jennings-ef3eee.netlify.app/',
-    repo: 'https://github.com/Gamygams1234/clock-app', // if no repo, the button will not sho
-  },
+
   {
     id: nanoid(),
     img: 'coffeeRoasters.jpg',
