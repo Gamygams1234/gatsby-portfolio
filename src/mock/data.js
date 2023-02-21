@@ -26,15 +26,7 @@ export const aboutData = {
 
 export const projectsData = [
   
-  {
-    id: nanoid(),
-    img: 'ip-tracker.jpg',
-    title: `IP Adress Tracker`,
-    info: 'This is an IP address tracker where a person can input an IP or a website and they can see the location, timezone, and timezone of the IP.',
-    info2: '',
-    url: 'https://elated-hamilton-5af558.netlify.app',
-    repo: 'https://github.com/Gamygams1234/ip-address-tracker', // if no repo, the button will not sho
-  },
+
   {
     id: nanoid(),
     img: 'project2.jpg',
@@ -62,6 +54,16 @@ export const projectsData = [
     url: 'https://pure-fjord-03615.herokuapp.com/',
     repo: 'https://github.com/Gamygams1234/gb-todo-app-react', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'ip-tracker.jpg',
+    title: `IP Adress Tracker`,
+    info: 'This is an IP address tracker where a person can input an IP or a website and they can see the location, timezone, and timezone of the IP.',
+    info2: '',
+    url: 'https://elated-hamilton-5af558.netlify.app',
+    repo: 'https://github.com/Gamygams1234/ip-address-tracker', // if no repo, the button will not sho
+  },
+
   {
     id: nanoid(),
     img: 'splitter.jpg',
