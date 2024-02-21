@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Gamaliel Burgos | Full Stack Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'I am Gamaliel Burgos and I am a Full Stack Developer. Feel free to look at my page and check out my projects.', // e.g: Welcome to my website
+  description: 'I am a Software Developer who is driven by my passion for creating outstanding web experiences while collaborating seamlessly with cross-functional teams. With a strong foundation in React, CSS, JavaScript, HTML as well as an understanding of Relational Databases, backend languages, and other scripting languages, I bring to the table not only technical expertise but also a deep appreciation for design and user-centricity. I thrive in team environments, valuing open communication, sharing knowledge, and working collectively to achieve our common goals. My goal is to leverage my skills and collaborative spirit to contribute to innovative web projects, ensuring that user interfaces are not just functional but also visually captivating.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'headshot.jpg',
-  paragraphOne: 'My first bit of exposure to web development was through Bottega Coding School in 2019. In the course, we started with basic HTML/CSS, and continued to become proficient in both front and back end coding. As time goes on, I continually try to develop my skills to create high quality software. It feels great that I started with a simple command like “Hello World”, and now I am understanding much more as time goes on.',
+  paragraphOne: 'I am a Software Developer who is driven by my passion for creating outstanding web experiences while collaborating seamlessly with cross-functional teams. With a strong foundation in React, CSS, JavaScript, HTML as well as an understanding of Relational Databases, backend languages, and other scripting languages, I bring to the table not only technical expertise but also a deep appreciation for design and user-centricity. I thrive in team environments, valuing open communication, sharing knowledge, and working collectively to achieve our common goals. My goal is to leverage my skills and collaborative spirit to contribute to innovative web projects, ensuring that user interfaces are not just functional but also visually captivating.',
   paragraphTwo: 'Below, you will find some projects that I have worked on and completed using what I have learned.',
   paragraphThree: '',
  // if no resume, the button will not show up
@@ -29,22 +29,15 @@ export const projectsData = [
 
   {
     id: nanoid(),
-    img: 'project2.jpg',
-    title: 'Stonks',
-    info: 'A React JS single page responsive app using an API from alphavantage.co to find information of the stock. Users can search a stock by typing in the abbreviation, then they can see the statistics for the day as well as seeing the history of the stock with a candlestick chart.',
+    img: 'coffeeRoasters.jpg',
+    title: `Coffee Roasters`,
+    info: 'This is a 3 page landing subscription site which showcases my JavaScript, HTML, CSS, and logic skills.',
     info2: '',
-    url: 'https://musing-neumann-c801c5.netlify.app',
-    repo: 'https://github.com/Gamygams1234/stonks-app', // if no repo, the button will not show up
+    url: 'https://hopeful-nobel-26ed64.netlify.app',
+    repo: 'https://github.com/Gamygams1234/coffee-roasters-subscription', // if no repo, the button will not sho
   },
-  {
-    id: nanoid(),
-    img: 'project1.jpg',
-    title: `Gamy's Shop`,
-    info: 'This is a responsive full stack shop that utilizes React JS, Bootstrap 4, Mongo DB, Express, Node JS, and other full stack techniques. Users can view products, sign in, and purchase products in this store. The admin can update products and look at the order history from the users.',
-    info2: '',
-    url: 'https://pure-fjord-03615.herokuapp.com/',
-    repo: 'https://github.com/Gamygams1234/mern-ecommerce', // if no repo, the button will not show up
-  },
+
+
   {
     id: nanoid(),
     img: 'todos.jpg',
@@ -74,15 +67,7 @@ export const projectsData = [
     repo: 'https://github.com/Gamygams1234/tip-caluculator-app-splitter', // if no repo, the button will not sho
   },
 
-  {
-    id: nanoid(),
-    img: 'coffeeRoasters.jpg',
-    title: `Coffee Roasters`,
-    info: 'This is a 3 page landing subscription site which showcases my JavaScript, HTML, CSS, and logic skills.',
-    info2: '',
-    url: 'https://hopeful-nobel-26ed64.netlify.app',
-    repo: 'https://github.com/Gamygams1234/coffee-roasters-subscription', // if no repo, the button will not sho
-  },
+
   {
     id: nanoid(),
     img: 'insure.jpg',
@@ -110,6 +95,15 @@ export const projectsData = [
     info2: '',
     url: 'https://adoring-lovelace-465c9e.netlify.app/',
     repo: 'https://github.com/Gamygams1234/loopstudios', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project2.jpg',
+    title: 'Stonks',
+    info: 'A React JS single page responsive app using an API from alphavantage.co to find information of the stock. Users can search a stock by typing in the abbreviation, then they can see the statistics for the day as well as seeing the history of the stock with a candlestick chart.',
+    info2: '',
+    url: 'https://musing-neumann-c801c5.netlify.app',
+    repo: 'https://github.com/Gamygams1234/stonks-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
